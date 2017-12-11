@@ -1,5 +1,5 @@
 {
-  "name": "serverless-nodejs-rds-",
+  "name": "serverless-rds-sequelize",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -8,11 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^4.13.0",
     "pg": "^7.4.0",
     "sequelize": "^4.27.0"
-  },
-  "devDependencies": {
-    "eslint-config-google": "^0.9.1"
   }
 }
