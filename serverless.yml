@@ -19,7 +19,13 @@ provider:
   runtime: nodejs6.10
   stage: dev
   region: eu-west-1
-
+  vpc:
+    securityGroupIds:
+      - Ref: ServerlessSecurityGroup
+    subnetIds:
+      - Ref: ServerlessSubnetA
+      - Ref: ServerlessSubnetB
+      - Ref: ServerlessSubnetC
   iamRoleStatements:
   - Effect: "Allow"
     Action:
